@@ -1,4 +1,4 @@
-(function() {
+$(function() {
     $('#text-search').bind('keyup change', function(ev) {
         // pull in the new value
         var searchTerm = $(this).val();
